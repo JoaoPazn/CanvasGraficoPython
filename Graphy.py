@@ -21,3 +21,68 @@ canvas.manager.window.title("canvas com 8 eixos")
 plt.show()
 
 # para rodar o código dennovo feche a janela do gráfico atual.
+
+
+#
+# Gráfico Pizza
+#
+
+
+# # adiciona as categorias para o gráfico de pizza
+# categorias = ['Maçã', 'Bananas', 'Cerejas', 'Laranjas', 'Queijo coalho'] 
+# # adiciona a quantidade de cada valor, na mesma ordem que as categorias foram adicionadas
+# valores = [30, 15, 45, 10, 200]
+
+# # Cria o gráfico de pizza
+# # Valores são adicionados para a porcentagem
+# # labels=categorias cria o nome de cada valor.
+# #autopct='%1.1f%%' mostra os valores em porcentagem em relação ao gráfico
+# plt.pie(valores, labels=categorias, autopct='%1.1f%%')
+
+# # Título opcional, aparece no topo do gráfico
+# plt.title("Distribuição de Frutas")
+
+# # Exibindo o gráfico
+# fig = plt.gcf()
+# # chama o canvas
+# canvas = fig.canvas
+
+# # Alterando o título da janela usando o canvas
+# canvas.manager.window.title("canva pizza")
+# # Mostra o gráfico
+# plt.show()
+
+
+#
+# Gráfico de blocos
+#
+
+
+# # adiciona as categorias para o gráfico de pizza
+# categorias = ['Gatos', 'Cachorros', 'Papagaios', 'Ratos domésticos']
+# # adiciona a quantidade de cada valor.
+# valores = [30, 70, 45, 300]
+
+# # Cria o gráfico de blocos
+# # categorias cria o nome de cada bloco
+# # Valores são adicionados para a porcentagem
+# # Color adiciona uma cor para os blocos, nome de cores podem ser encontrados em https://www.w3schools.com/colors/colors_names.asp, tambem pode ser usado o formato hexadeximal (#RRGGBB).
+# plt.bar(categorias, valores, color='palegreen')
+
+# # Adiciona o titulo
+# plt.title('Petshop Análise Anual')
+# # adiciona um texto em X
+# plt.xlabel('Animais')
+# # adiciona um texto em Y
+# plt.ylabel('Quantidade de animais adotados esse Ano')
+
+
+# # Exibindo o gráfico
+# fig = plt.gcf()
+# # chama o canvas
+# canvas = fig.canvas
+
+# # Alterando o título da janela usando o canvas
+# canvas.manager.window.title("canva Colunas")
+# # Mostra o gráfico
+# plt.show()
