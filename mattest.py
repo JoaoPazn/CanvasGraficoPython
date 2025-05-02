@@ -1,7 +1,7 @@
 # para baixar o matplotlib use #pip3 install matplotlib direto no terminal
 # importa a biblioteca matplotlib
 import matplotlib.pyplot as plt
-# import5a a 
+# Importa o backend TkAgg do Matplotlib, ela é responsavel por exibir os gráficos utilizando a biblioteca Tkinter.
 import matplotlib.backends.backend_tkagg as tkagg
 
 # Criação do gráfico
